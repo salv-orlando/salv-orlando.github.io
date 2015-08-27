@@ -165,9 +165,9 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  width: 12%;
+  height: 90px;
+  margin-right: 10px;
 
   @include mobile {
     float: none;
@@ -182,7 +182,7 @@ img {
 
 .site-info {
   float: left;
-
+  width: 75%;
   @include mobile {
     float: none;
     display: block;
@@ -191,7 +191,7 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 0 0 10px 0;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
