@@ -4,9 +4,9 @@ title: About myself
 permalink: /about/
 ---
 
-### What do I do for a living?
+### What do you do for a living?
 
-I procrastinate. I tinker with stuff. I also think. And then I procrastinate again.
+I procrastinate. I tinker with stuff. I also think, or at least I look like as I'm thinking. And then I procrastinate again.
 
 ### What do you tinker with?
 
@@ -28,7 +28,7 @@ there are plenty of ideas for procrastination here.
 ### How often do you write?
 
 I'd say on an occasional basis.
-
+ddd
 ### Do you have a life beyond procrastination?
 
 Yes, I do have a beautiful wife, and and even more gorgeous 1-year old son.
