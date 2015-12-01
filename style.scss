@@ -19,13 +19,13 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 860px;
   padding: 0 10px;
   width: 100%;
 }
@@ -252,12 +252,13 @@ nav {
 }
 
 .post {
+ 
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 14px;
     font-style: italic;
   }
 
@@ -267,7 +268,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
