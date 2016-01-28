@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploying Kubernetes on OpenStack with Vagrant
-category: programming
+category: automation
 tags: [openstack, kubernetes, vagrant, ansible]
 ---
 
