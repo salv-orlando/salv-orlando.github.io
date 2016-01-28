@@ -120,6 +120,11 @@ img {
   color: $gray;
 }
 
+.category {
+  font-weight: bold;
+  color: $gray;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
