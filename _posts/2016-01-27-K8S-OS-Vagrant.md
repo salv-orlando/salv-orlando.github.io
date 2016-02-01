@@ -2,7 +2,7 @@
 layout: post
 title: Deploying Kubernetes on OpenStack with Vagrant
 category: automation
-tags: [openstack, kubernetes, vagrant, ansible]
+tags: [openstack, kubernetes, vagrant, saltstack]
 ---
 
 There are several ways of bringing up a kubernetes cluster. While obviously
@@ -93,7 +93,7 @@ When bringing up a cluster Vagrant configures a “master” and one or more
 While Vagrant takes care of bringing up the nodes and starting the
 configuration process, most of the actual configuration is done by
 the provisioning scripts in `$KUBE_ROOT/cluster/vagrant`; these scripts
-heavily use salt and ansible. How salt is employed to configure Kubernetes
+heavily use SaltStack. How salt is employed to configure Kubernetes
 clusters is extensively discussed in [Kubernetes documentation]
 (http://kubernetes.io/v1.1/docs/admin/salt.html)
 
