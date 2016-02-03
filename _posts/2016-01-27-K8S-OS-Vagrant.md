@@ -29,6 +29,10 @@ which makes it possible to spin up development environments directly on
 OpenStack clouds. The purpose of this garbled collection of words tries to
 discuss how to achieve this.
 
+It could be rightly argued that for a developer running `hack/local-up-cluster.sh`
+is way easier than Vagrant or anything else. There are however plenty of cases
+where one may need to test their code on 'production-like' multi-host clusters.
+
 But first, let’s start with building kubernetes…
 
 ##  Building Kubernetes
@@ -413,4 +417,20 @@ As a developer whose machines live in an OpenStack cloud there is a trade-off
 between having a “fast” development environment where k8s nodes are actually
 slow and limited because of nested virtualization (this won’t apply if you run
 OpenStack baremetal), and a rather clunky development environment that can
-however spin k8s nodes that are similar in nature to those one can spin on GCE or AWS.
+however spin k8s nodes that are similar in nature to those one can spin on GCE or
+AWS.
+
+Nevertheless, Vagrant deployments are anyway unlikely to be part of the routine
+development workflow. A local cluster is much better suitable to that purpose.
+However, from time to time, for development purposes or as a part of a CI program,
+tests must be run on multi-host environments. And having the ability of using
+Vagrant to deploy Kubernetes on OpenStack is definitely a valuable addition.
+
+It is also worth pointing that out that Vagrant is not the only solution for
+deploying Kubernetes on OpenStack. The Murano project has published an [app package]
+(https://github.com/openstack/murano-apps/tree/master/Docker/Kubernetes) specific
+for Kubernetes, which is part of the OpenStack [Community App Catalog]
+(https://apps.openstack.org/#tab=murano-apps&asset=Kubernetes%20Cluster).
+However, as the focus of this app package is more on production deployments
+rather than development, if was a bit out of scope for this already excessively
+long article.
